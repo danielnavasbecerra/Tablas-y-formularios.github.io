@@ -9,6 +9,7 @@
 
 body {
     background: #081b29;
+    color: #ededed;
 }
 
 .header {
@@ -19,8 +20,9 @@ body {
     padding: 20px 10%;
     background: transparent;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 
 .logo {
@@ -28,6 +30,55 @@ body {
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color:#00abf0;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 800px;
+}
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700px;
+
+}
+
+.tablas{
+    margin: 20px;
+    padding: 10px;
+}
+.tablas h3 {
+    font-size: 32px;
+    font-weight: 700px;
+    color: #00abf0;
+}
+
+.formularios{
+    margin: 20px;
+    padding: 10px;
+}
+.formularios h3 {
+    font-size: 32px;
+    font-weight: 700px;
+    color: #00abf0;
 }
 
 .enlace a {
@@ -40,4 +91,8 @@ body {
 }
 .enlace a:hover {
     color:#00abf0;
+}
+
+ul {
+    list-style-type:none;
 }
