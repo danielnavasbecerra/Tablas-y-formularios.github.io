@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/HTML/formularios-2/CSS/styles.css">
+    <title>Formulario 2</title>
+    <link rel="icon" href="/IMG/excel-3950432-3286835.ico">
 </head>
 <body>
-    
+    <h1>Formulario de registro</h1>
+    <form action="" method="get">
+      <label for="name">Nombre:</label><br />
+      <input type="text" id="name" name="name" /><br />
+
+      <label for="email">Correo electrónico:</label><br />
+      <input type="email" id="email" name="email" /><br />
+
+      <label for="url">URL:</label><br />
+      <input type="url" id="url" name="url" /><br />
+
+      <label for="date">Fecha:</label><br />
+      <input type="date" id="date" name="date" /><br />
+
+      <label for="time">Tiempo:</label><br />
+      <input type="time" id="time" name="time" /><br />
+
+      <label for="datetime">Fecha y hora:</label><br />
+      <input type="datetime-local" id="datetime" name="datetime" /><br />
+
+      <label for="month">Mes:</label><br />
+      <input type="month" id="month" name="month" /><br />
+
+      <label for="week">Semana:</label><br />
+      <input type="week" id="week" name="week" /><br />
+
+      <label for="number">Número (min -10, max 10):</label><br />
+      <input
+        type="number"
+        id="number"
+        name="number"
+        min="-10"
+        max="10"
+        required
+      /><br />
+
+      <label for="phone">Teléfono:</label><br />
+      <input type="tel" id="phone" name="phone" /><br />
+
+      <label for="search">Búsqueda:</label><br />
+      <input type="search" id="search" name="search" /><br />
+
+      <label for="color">Color favorito:</label><br />
+      <input type="color" id="color" name="color" /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
 </body>
 </html>

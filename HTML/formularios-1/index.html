@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/HTML/formularios-1/CSS/styles.css">
+    <title>Formulario 1</title>
+    <link rel="icon" href="/IMG/excel-3950432-3286835.ico">
 </head>
 <body>
-    
+    <h1>Formulario de registro</h1>
+    <form action="" method="GET">
+        <label for="name" class="form-label">Nombre:</label>
+        <input type="text" id="name" name="name" maxlength="50" required class="form-input">
+        <br>
+        <label for="lastname" class="form-label">Apellidos:</label>
+        <input type="text" id="lastname" name="lastname" maxlength="50" required class="form-input">   
+        <br>
+        <label class="form-label">Género:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Hombre</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Mujer</label>
+        <br>
+        <label for="email" class="form-label">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required class="form-input">
+        <br>
+        <input type="checkbox" id="news" name="news" value="yes" required class="form-checkbox">
+        <label for="news">Deseo recibir información sobre novedades y ofertas</label>
+        <br>
+        <input type="checkbox" id="terms" name="terms" value="yes" required class="form-checkbox">
+        <label for="terms">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        <br>
+        <input type="submit" value="Enviar" class="form-submit">
+    </form>
 </body>
 </html>

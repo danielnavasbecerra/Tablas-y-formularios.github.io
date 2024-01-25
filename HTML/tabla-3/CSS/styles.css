@@ -1,0 +1,22 @@
+#third-table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.mini-table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+.yellow {
+    background: lightyellow;
+}
+
+.green {
+    background: lightgreen;
+}
+
+.purple {
+    background: lightblue;
+}

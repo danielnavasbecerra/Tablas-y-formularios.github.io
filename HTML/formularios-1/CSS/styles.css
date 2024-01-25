@@ -1,0 +1,13 @@
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-input {
+    margin-bottom: 10px;
+}
+.form-checkbox {
+    margin-bottom: 10px;
+}
+.form-submit {
+    margin-top: 10px;
+}
